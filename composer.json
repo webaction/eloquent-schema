@@ -1,0 +1,42 @@
+{
+    "name": "faustbrian/eloquent-schema",
+    "description": "Adds more schema functionality for Laravel migrations",
+    "keywords": ["laravel", "framework", "Eloquent-Cchema", "Eloquent Schema", "Brian Faust", "faustbrian"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Brian Faust",
+        "email": "hello@brianfaust.de",
+        "homepage": "https://brianfaust.de"
+    }],
+    "require": {
+        "php": "^7.1",
+        "faustbrian/laravel-service-provider": "^1.0",
+        "illuminate/database": "5.3.* || 5.4.*",
+        "nesbot/carbon": ">=1.21.0"
+    },
+    "require-dev": {
+        "graham-campbell/testbench": "^3.2",
+        "mockery/mockery": "^0.9.5",
+        "phpunit/phpunit": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "BrianFaust\\Schema\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BrianFaust\\Tests\\Schema\\": "tests"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
